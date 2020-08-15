@@ -5,8 +5,6 @@ import App from './containers/pages/App';
 import * as serviceWorker from './serviceWorker';
 import firebase from './config/firebase';
 
-console.log('Config firebase',firebase);
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
